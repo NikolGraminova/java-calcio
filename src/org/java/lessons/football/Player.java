@@ -12,4 +12,12 @@ public class Player extends Person{
         this.position = position;
     }
 
+
+    // METHODS
+    @Override
+    public String toString() {
+        return super.toString() +
+                " , '" + position + '\'' +
+                '}';
+    }
 }
